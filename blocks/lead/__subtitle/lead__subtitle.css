@@ -2,4 +2,7 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  width: 640px;
+  margin: 32px auto;
+  padding: 0;
 }

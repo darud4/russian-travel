@@ -1,3 +1,5 @@
 .lead {
   color: white;
+  margin: 0 auto;
+  width: fit-content;
 }

@@ -1,0 +1,7 @@
+.lead__image {
+  background-image: url(../../../images/lead_img.jpg);
+  background-size: contain;
+  margin: 64px auto 0;
+  width: 984px;
+  height: 615px;
+}

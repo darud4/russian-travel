@@ -1,5 +1,6 @@
 .lead__caption {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 10px;
   line-height: 14px;
+  letter-spacing: 1.5px;
 }
