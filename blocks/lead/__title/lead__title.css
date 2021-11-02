@@ -3,7 +3,7 @@
   line-height: 100px;
   text-align: center;
   font-weight: 900;
-  width: 720px;
+  max-width: 720px;
   margin: 136px auto 0;
   padding: 0;
 }
