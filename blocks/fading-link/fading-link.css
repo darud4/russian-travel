@@ -1,6 +1,6 @@
 .fading-link {
     opacity: 1;
-    transition: opacity .5s linear;
+    transition: opacity .3s linear;
 }
 
 .fading-link:hover {
