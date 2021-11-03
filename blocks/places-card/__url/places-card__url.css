@@ -1,6 +1,21 @@
 .places-card__url {
-    text-decoration: underline;
-    margin: 0;
-    padding: 0;
-    color: white;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 1.2;
+  align-self: end;
+  justify-self: start;
+}
+
+.places-card__url::before {
+  content: "URL";
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: normal;
+  color: #aaaaaa;
+  margin-bottom: 12px;
+  display: inline-block;
 }
