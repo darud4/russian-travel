@@ -2,6 +2,7 @@
 @import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/text-normal/text-normal.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -10,9 +11,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__img-container/lead__img-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__path/lead__path.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
