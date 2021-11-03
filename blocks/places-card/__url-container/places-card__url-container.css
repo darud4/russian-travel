@@ -1,0 +1,4 @@
+.places-card__url-container {
+    display: flex;
+    flex-direction: column;
+}

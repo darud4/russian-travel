@@ -32,6 +32,8 @@
 @import url(../blocks/places-card/__img/places-card__img.css);
 @import url(../blocks/places-card/__text-container/places-card__text-container.css);
 @import url(../blocks/places-card/__paragraph/places-card__paragraph.css);
+@import url(../blocks/places-card/__url-container/places-card__url-container.css);
+@import url(../blocks/places-card/__url-caption/places-card__url-caption.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
