@@ -7,6 +7,7 @@
   line-height: 1.2;
   align-self: end;
   justify-self: start;
+  display: block;
 }
 
 .places-card__url::before {
@@ -17,5 +18,5 @@
   font-weight: normal;
   color: #aaaaaa;
   margin-bottom: 12px;
-  display: inline-block;
+  display: block;
 }
