@@ -1,0 +1,11 @@
+.cover__img {
+    width: 1184px;
+    height: 740px;
+    background-image: url(../../../images/cover-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }

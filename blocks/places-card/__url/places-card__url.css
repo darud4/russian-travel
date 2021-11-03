@@ -4,19 +4,5 @@
   padding: 0;
   color: white;
   font-size: 18px;
-  line-height: 1.2;
-  align-self: end;
-  justify-self: start;
-  display: block;
-}
-
-.places-card__url::before {
-  content: "URL";
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 1.6;
-  font-weight: normal;
-  color: #aaaaaa;
-  margin-bottom: 12px;
-  display: block;
+  line-height: 22px;
 }
