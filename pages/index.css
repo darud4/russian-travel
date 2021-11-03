@@ -21,3 +21,12 @@
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/places-card/places-card.css);
+@import url(../blocks/places-card/__title/place-card__title.css);
+@import url(../blocks/places-card/__url/place-card__url.css);
+@import url(../blocks/places-card/__img/place-card__img.css);
+@import url(../blocks/places-card/__text-container/place-card__text-container.css);
+@import url(../blocks/places-card/__paragraph/place-card__paragraph.css);
