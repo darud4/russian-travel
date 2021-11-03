@@ -1,4 +1,7 @@
 .page {
   background-color: #2A2C2F;
   font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1.2;
 }
