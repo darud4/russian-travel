@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 
+@import url(../blocks/fading-link/fading-link.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/text-normal/text-normal.css);
 @import url(../blocks/content/content.css);
