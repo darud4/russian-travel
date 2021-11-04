@@ -4,5 +4,5 @@
     display: grid;
     grid-template-columns: min-content auto;
     grid-template-rows: min-content auto;
-    gap: 40px 48px;
+    gap: 48px 40px;
 }
