@@ -7,3 +7,16 @@
   color: white;
   max-width: 1184px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin: 0 24px;
+  }  
+}
+
+@media screen and (max-width: 766px) {
+  .header {
+    margin: 0 16px;
+    padding-top: 16px;
+  }  
+}
