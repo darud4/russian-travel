@@ -3,3 +3,17 @@
   max-width: 984px;
   height: auto;
 }
+
+@media screen and (max-width: 1080px) {
+  .lead__image {
+    width: 928px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__image {
+    width: 768px;
+    margin-top: 56px;
+  }
+}
