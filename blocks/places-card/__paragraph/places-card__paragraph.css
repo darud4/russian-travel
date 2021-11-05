@@ -3,10 +3,16 @@
   line-height: 1.65;
   margin: 0;
   padding: 0;
-  width: 484px;
   margin-bottom: 26px;
 }
 
 .places-card__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places-card__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }

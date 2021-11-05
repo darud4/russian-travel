@@ -1,0 +1,6 @@
+@media screen and (max-width: 700px) {
+  .places-card__text-container {
+    margin: 0 auto;
+    width: calc(100% - 32px);
+  }
+}

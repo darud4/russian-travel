@@ -4,3 +4,9 @@
   justify-self: start;
   align-self: end;
 }
+
+@media screen and (max-width: 700px) {
+  .places-card__url-container {
+    margin-left: 16px;
+  }
+}

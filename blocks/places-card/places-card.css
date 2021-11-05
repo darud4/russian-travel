@@ -6,3 +6,10 @@
     grid-template-rows: min-content auto;
     gap: 48px 40px;
 }
+
+@media screen and (max-width: 700px) {
+    .places-card {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }    
+}

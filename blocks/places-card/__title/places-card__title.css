@@ -5,3 +5,24 @@
   line-height: 76px;
   font-weight: 900;
 }
+
+@media screen and (max-width: 768px) {
+  .places-card__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .places-card__title {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places-card__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

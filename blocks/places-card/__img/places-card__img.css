@@ -1,4 +1,31 @@
 .places-card__img {
-    height: 460px;
-    width: 460px;
+  height: 460px;
+  width: 460px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places-card__img {
+    height: 440px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places-card__img {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places-card__img {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .places-card__img {
+    justify-self: center;
+  }
 }
