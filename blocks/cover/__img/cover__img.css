@@ -2,12 +2,13 @@
   display: block;
   position: relative;
   width: 100%;
-  height: 62.5vw;
+  max-width: 1184px;
+  height: 740px;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  padding: 245px 0; 
+  padding: 245px 0 0 0; 
 }
 
 .cover__img::before {
@@ -26,20 +27,24 @@
   opacity: 0.8;
 }
 
+
 @media screen and (max-width: 1279px) {
   .cover__img {
+    height: 62.5vw;
     padding-top: 195px;
   }  
 }
 
 @media screen and (max-width: 1023px) {
   .cover__img {
+    height: 62.5vw;
     padding-top: 115px;
   }  
 }
 
 @media screen and (max-width: 767px) {
   .cover__img {
+    height: 62.5vw;
     padding-top: 10vw;
   }  
 }
