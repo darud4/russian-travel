@@ -2,8 +2,21 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
-  margin: 32px 0 0 0;
+  margin: 32px auto;
   padding: 0;
   text-align: center;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin-top: 16px;
+  }  
 }

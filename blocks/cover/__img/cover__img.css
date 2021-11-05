@@ -1,13 +1,13 @@
 .cover__img {
-  width: 1184px;
-  height: 740px;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 62.5vw;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  box-sizing: border-box;
+  padding: 245px 0; 
 }
 
 .cover__img::before {
@@ -24,4 +24,22 @@
 
 .cover__img:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__img {
+    padding-top: 195px;
+  }  
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__img {
+    padding-top: 115px;
+  }  
+}
+
+@media screen and (max-width: 767px) {
+  .cover__img {
+    padding-top: 10vw;
+  }  
 }
