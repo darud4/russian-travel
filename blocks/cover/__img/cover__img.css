@@ -1,7 +1,7 @@
 .cover__img {
   display: block;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 62.5vw;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
