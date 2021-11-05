@@ -1,11 +1,27 @@
 .cover__img {
-    width: 1184px;
-    height: 740px;
-    background-image: url(../../../images/cover-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/cover-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.cover__img::before {
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 0.4s linear;
+}
+
+.cover__img:hover::before {
+  opacity: 0.8;
+}
