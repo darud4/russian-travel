@@ -2,5 +2,11 @@
   color: white;
   margin: 0 auto;
   max-width: 984px;
-  width: min-content;
+  width: 100%;
+}
+
+@media screen and (max-width: 935px) {
+  .lead {
+    width: 100%;
+  }
 }
