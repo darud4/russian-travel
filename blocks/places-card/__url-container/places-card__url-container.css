@@ -5,6 +5,13 @@
   align-self: end;
 }
 
+@media screen and (max-width: 768px) {
+  .places-card__url-container {
+    padding-bottom: 5px;
+  }
+}
+
+
 @media screen and (max-width: 700px) {
   .places-card__url-container {
     margin-left: 16px;

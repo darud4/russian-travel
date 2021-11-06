@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .places-card {
+    gap: 44px 29px;
+    margin-top: 75px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .places-card {
     grid-template-columns: 1fr;

@@ -23,6 +23,7 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(6, auto);
     gap: 16px;
+    padding-top: 88px;
   }
 }
 

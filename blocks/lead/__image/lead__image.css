@@ -14,7 +14,13 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .lead__image {
     margin-top: 40px;
     background-image: url(../../../images/lead-polka-small.jpg);
