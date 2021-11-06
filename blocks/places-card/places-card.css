@@ -26,3 +26,9 @@
     gap: 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places-card {
+    margin-top: 51px;
+  }
+}
