@@ -3,5 +3,7 @@
   font-family: "Inter", sans-serif;
   color: white;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-rendering: optimizeLegibility; 
 }
