@@ -10,6 +10,8 @@
   background-size: cover;
   box-sizing: border-box;
   padding: 245px 0 0 0;
+  text-decoration: none;
+  color: white;
 }
 
 .cover__img::before {
@@ -22,6 +24,7 @@
   right: 0;
   bottom: 0;
   transition: opacity 0.4s linear;
+
 }
 
 .cover__img:hover::before {
