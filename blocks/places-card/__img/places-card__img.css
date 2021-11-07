@@ -27,11 +27,6 @@
 @media screen and (max-width: 700px) {
   .places-card__img {
     justify-self: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places-card__img {
     width: 100%;
     height: auto;
   }
