@@ -16,19 +16,19 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places-card {
     gap: 44px 29px;
-    margin-top: 75px;
+    margin-top: 73px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .places-card {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 31px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places-card {
-    margin-top: 51px;
+    margin-top: 47px;
   }
 }
