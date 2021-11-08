@@ -3,11 +3,12 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  max-width: 1184px;
-  height: 740px;
+  min-width: 1184px;
+  min-height: 740px;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   box-sizing: border-box;
   padding: 245px 0 0 0;
   text-decoration: none;
@@ -54,6 +55,5 @@
 @media screen and (max-width: 320px) {
   .cover__img {
     padding-top: 38px;
-    background-image: url(../../../images/cover-small.jpg);
   }
 }
