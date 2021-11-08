@@ -3,8 +3,8 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  min-width: 1184px;
-  min-height: 740px;
+  max-width: 1184px;
+  height: 740px;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
