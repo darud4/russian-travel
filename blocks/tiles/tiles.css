@@ -1,0 +1,31 @@
+.tiles {
+  padding: 92px 0 9px 0;
+  margin: 0 auto;
+  max-width: 1184px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .tiles {
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tiles {
+    max-width: 720px;
+    padding-top: 86px;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 767px) {
+  .tiles {
+    max-width: 584px;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .tiles {
+    max-width: 288px;
+    padding-top: 65px;
+  }
+}

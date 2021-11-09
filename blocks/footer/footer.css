@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   padding-bottom: 24px;
-  padding-top: 92px;
+  padding-top: 91px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -27,3 +27,8 @@
     padding-top: 70px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-top: 69px;
+  }}

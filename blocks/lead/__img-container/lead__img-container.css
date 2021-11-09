@@ -1,4 +1,23 @@
 .lead__img-container {
-    margin: 0;
-    padding: 0;
+  max-width: 984px;
+  margin: 64px auto 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__img-container {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__img-container {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__img-container {
+    margin-top: 40px;
+  }
 }

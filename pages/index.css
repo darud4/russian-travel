@@ -25,8 +25,10 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 
+@import url(../blocks/tiles/tiles.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__img/photo-grid__img.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places-card/places-card.css);
